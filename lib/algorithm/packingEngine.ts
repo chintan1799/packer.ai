@@ -7,7 +7,7 @@ import {
 } from "./constants";
 
 /** All 6 axis-aligned orientations of a box */
-function getOrientations(l: number, w: number, h: number): Orientation[] {
+export function getOrientations(l: number, w: number, h: number): Orientation[] {
   return [
     { l, w, h },
     { l: l, w: h, h: w },
